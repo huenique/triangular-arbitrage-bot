@@ -1,0 +1,7 @@
+[requires]
+# For example, if you add a dependency later:
+# boost/1.75.0
+
+[generators]
+CMakeToolchain
+CMakeDeps

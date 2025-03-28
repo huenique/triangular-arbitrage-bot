@@ -1,0 +1,1 @@
+. "/home/huenique/projects/huetils/triangular-arbitrage-bot/conanbuildenv-release-x86_64.sh"
