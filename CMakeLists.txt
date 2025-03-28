@@ -4,4 +4,6 @@ project(triangular_arbitrage_bot)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(triangular_arbitrage_bot src/main.cpp)
+file(GLOB_RECURSE SOURCES "src/*.cpp")
+
+add_executable(triangular_arbitrage_bot ${SOURCES})
